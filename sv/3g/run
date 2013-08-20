@@ -1,0 +1,5 @@
+#!/bin/bash
+sleep 10
+/usr/bin/sv start 3g-route
+exec 2>&1
+exec /usr/bin/wvdial

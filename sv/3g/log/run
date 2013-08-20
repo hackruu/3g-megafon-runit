@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir -p /var/log/3g/
+
+exec 2>&1
+exec /usr/bin/svlogd -tt /var/log/3g/

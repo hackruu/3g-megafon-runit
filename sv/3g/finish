@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/bin/sv stop 3g-route
